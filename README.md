@@ -5,7 +5,7 @@ This is project on data Wrangling , which involves the transformation of raw dat
 There are three stages in the data wrangling process, this includes the following 
 1.	Gathering Data: This involves gathering data from the source. In this project , I used the WeRateDogs tweets from twitter, but the data were gathered in three different ways :
 i.	Twitter Archive data: This I downloaded straight from Udacity repository. It was given to them by the owners of the WeRateDogs twitter handle.
-ii.	Image Prediction File: This I downloaded pragmatically using the Request library from url(https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv) to  twitter web page
+ii.	Image Prediction File: This I downloaded pragmatically using the Request library from this [link](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv) to  twitter web page
 iii.	Twitter API Data: this I got through the use of twitter Api. In this project I got the Json file  by querying  the twitter Api using the tweepy library to obtain more information as regards to the tweets’ id in the Archive file such as the  retweet counts and favorite counts.
 
 2.	Assessing Data: Here we look at the data to check and remove unwanted parameters, hence assessing them for Quality and Tidiness issues; this could be inconsistencies, completeness or validity issues. we watch out for them and document them so as to aid our cleaning process. There are two as to assess data; either visually looking at the data or using built in functions and codes(programmatically)
