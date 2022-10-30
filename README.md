@@ -1,6 +1,6 @@
 # We-Rate-Dogs-TWitter-User-Analysis
 
-INTRODUCTION
+### INTRODUCTION  
 This is project on data Wrangling , which involves the transformation of raw data to a very clean data for further analysis. Originally most data are gotten in their original state, and in that state , they are dirty, messy and untidy,  hence the need for data wrangling. 
 There are three stages in the data wrangling process, this includes the following 
 1.	Gathering Data: This involves gathering data from the source. In this project , I used the WeRateDogs tweets from twitter, but the data were gathered in three different ways :
